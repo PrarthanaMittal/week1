@@ -1,0 +1,130 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+    background-image: url("regback.jpg");
+}
+header{
+    background-color: black;
+    opacity: 0.7;
+    padding: 0.1%;
+    margin: 0%;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+header nav{
+    padding: 1em 0 1em 3em;
+}
+header nav a{
+    color: white;
+    font-size: 1.8em;
+    justify-content: space-between;
+    margin: 1em;
+}
+#first{
+    width:100%;
+}
+.overlay{
+    position: absolute;
+    top: 62%;
+    right: 2%;
+    transform: translateY(-10%);
+}
+#intro{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(240, 238, 234);
+    font-weight: 900;
+    font-size: 2.8em;
+    text-shadow: 0px 0px 5px rgb(241, 166, 54);
+    background-color: rgba(0, 0, 0, 0.499);
+}
+#down{
+    color: white;
+    right: 0em;
+    position: absolute; 
+    top: 3.5em;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1%; 
+    font-size: 1.5em;
+    font-family:'Times New Roman', Times, serif;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+.slider img{
+    width: 80vw;
+    height: 40vw;
+    margin: auto;
+    display: none;
+}
+img.displaySlide{
+    display:block;
+}
+#heading{
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    text-shadow: 0px 0px 8px rgb(27, 196, 226);
+}
+.prev{
+    position: absolute;
+    top: 18vw;
+    left:2vw;
+}
+.next{
+    position: absolute;
+    top: 18vw;
+    right:2vw;
+}
+button{
+    background-color: rgba(255, 235, 205, 0);
+    font-size: 5vw;
+    color: white;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+    position: relative;
+    z-index: 1;
+}
+#vid{
+    text-align: center;
+    position: relative;
+    top: 5vw;
+}
+#over{
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    text-shadow: 0px 0px 8px rgb(27, 196, 226);
+    margin: 1vw;
+}
+@media (max-width: 1120px){
+.overlay{
+    position: absolute;
+    top: 45vw;
+    right: 1vw;
+}
+#intro{
+    font-size: 4vw;
+}
+#down{
+    font-size: 2vw;
+}
+header nav a{
+    font-size: 3vw;
+    margin: 1vw;
+}
+header nav{
+    padding: 0;
+}
+#logo{
+    width:30vw;
+}
+}
